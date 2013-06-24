@@ -26,9 +26,6 @@
     <!-- we don't want to bounce -->
     <preference name="webviewbounce" value="false"/>
 
-    <!-- splash screen will be hidden programatically -->
-    <preference name="auto-hide-splash-screen" value="false"/>
-
     <!-- iOS icons -->
     <icon src="icons/ios/icon.png" width="57" height="57"/>
     <icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72"/>
