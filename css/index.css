@@ -1,0 +1,16 @@
+.topcoat-list__container {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    top: 64px;
+}
+.topcoat-list__item__avatar {
+    position: absolute;
+    max-width: 80px;
+}
+.topcoat-list__item__user-info {
+    padding-left: 100px;
+}
+.topcoat-list__item__user-info__item {
+    margin-bottom:5px;
+}
