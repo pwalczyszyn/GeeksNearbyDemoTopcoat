@@ -11,6 +11,7 @@
     </head>
     
     <body>
+        
         <div class="topcoat-navigation-bar">
             <div class="topcoat-navigation-bar__item left quarter">
                 <a class="topcoat-icon-button--quiet">
@@ -26,19 +27,13 @@
                 </a>
             </div>
         </div>
+        
         <div class="topcoat-list__container">
             <h3 class="topcoat-list__header">Users</h3>
             <ul class="topcoat-list">
             </ul>
         </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="PushNotification.js"></script>
-        <script src="js/libs/jquery-2.0.2.js"></script>
-        <script src="js/libs/parse-1.2.8.js"></script>
-        <script src="js/libs/underscore.js"></script>
-        
-        <script type="text/javascript" src="js/index.js"></script>
-        
+
         <script type="text/template" id="user-list-item">
         <li class="topcoat-list__item">
             <img src="<%= user.get('avatar') ? user.get('avatar').url() : 'images/avatar-dark.png' %>" class="topcoat-list__item__avatar" />
@@ -49,6 +44,12 @@
             </div>
         </li>
         </script>
+        
+        <script src="cordova.js"></script>
+        <script src="js/libs/jquery-2.0.2.js"></script>
+        <script src="js/libs/parse-1.2.8.js"></script>
+        <script src="js/libs/underscore.js"></script>
+        <script src="js/index.js"></script>
     </body>
 
 </html>
